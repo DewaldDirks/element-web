@@ -27,7 +27,7 @@ export default class VectorAuthPage extends React.PureComponent {
         if (VectorAuthPage.welcomeBackgroundUrl) return VectorAuthPage.welcomeBackgroundUrl;
 
         const brandingConfig = SdkConfig.getObject("branding");
-        VectorAuthPage.welcomeBackgroundUrl = "themes/element/img/backgrounds/lake.jpg";
+        VectorAuthPage.welcomeBackgroundUrl = "themes/element/img/backgrounds/Cartrack.jpg";
 
         const configuredUrl = brandingConfig?.get("welcome_background_url");
         if (configuredUrl) {
@@ -65,7 +65,7 @@ export default class VectorAuthPage extends React.PureComponent {
         const modalContentStyle: React.CSSProperties = {
             display: "flex",
             zIndex: 1,
-            background: "rgba(255, 255, 255, 0.59)",
+            background: "rgba(255, 255 ,255, 0.59)", //changes center panel color
             borderRadius: "8px",
         };
 

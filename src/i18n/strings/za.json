@@ -1,0 +1,40 @@
+{
+    "action": {
+        "create_account": "Skep Rekening",
+        "dismiss": "Verwerp",
+        "explore_rooms": "Verken Kamers",
+        "open": "Oopmaak",
+        "sign_in": "Meld Aan"
+    },
+    "auth": {
+        "sso_complete_in_browser_dialog_title": "Gaan na jou webblaaier om die Aanmelding te voltooi"
+    },
+    "desktop_default_device_name": "%(brand)s Desktop: %(platformName)s",
+    "download_completed": "Aflaai Voltooid",
+    "error": {
+        "app_launch_unexpected_error": "Onverwagte fout met die voorbereiding van die app. Sien konsole vir besonderhede.",
+        "cannot_load_config": "Kan nie opset lêer laai nie: herlaai asseblief die bladsy om weer te probeer.",
+        "invalid_configuration_mixed_server": "Ongeldige opset: 'n default_hs_url kan nie gespesifiseer word saam met default_server_name of default_server_config nie",
+        "invalid_configuration_no_server": "Ongeldige opset: geen verstekbediener gespesifiseer nie.",
+        "invalid_json": "Jou Element-opset bevat ongeldige JSON. Maak asseblief die probleem reg en herlaai die bladsy.",
+        "invalid_json_detail": "Die boodskap van die ontleder is: %(message)s",
+        "invalid_json_generic": "Ongeldige JSON",
+        "misconfigured": "Jou Element is verkeerd opgestel"
+    },
+    "failed_to_start": "Kon nie begin nie",
+    "go_to_element_io": "Gaan na element.io",
+    "incompatible_browser": {
+        "browser_links": "Installeer asseblief <chromeLink>Chrome</chromeLink>, <firefoxLink>Firefox</firefoxLink>, of <safariLink>Safari</safariLink> vir die beste ervaring.",
+        "continue_warning": "Ek verstaan die risiko's en wil voortgaan",
+        "feature_warning": "Jy kan voortgaan om jou huidige blaaier te gebruik, maar sommige of al die funksies mag nie werk nie, en die uiterlike van die aansoek mag verkeerd wees.",
+        "features": "%(brand)s gebruik gevorderde blaaier funksies wat nie ondersteun word deur jou huidige blaaier nie.",
+        "summary": "Jou blaaier kan nie %(brand)s laat loop nie",
+        "title": "Nie-ondersteunde blaaier"
+    },
+    "powered_by_matrix": "Aangedryf deur Matrix",
+    "powered_by_matrix_with_logo": "Gedentraliseerde, versleutelde geselskap & saamwerking aangedryf deur $matrixLogo",
+    "unknown_device": "Onbekende toestel",
+    "use_brand_on_mobile": "Gebruik %(brand)s op mobiel",
+    "web_default_device_name": "%(appName)s: %(browserName)s op %(osName)s",
+    "welcome_to_element": "Welkom by Element"
+}
